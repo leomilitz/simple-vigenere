@@ -14,5 +14,15 @@ $ gcc vigenere.c -ansi -Wall -o vigenere
 -d: decrypt mode
 ```
 
+## Sample
+
+```
+$ ./vigenere -e plaintextmessagetest anykey                                           
+PYYSRREKRWIQSNEOXCSG
+
+$ ./vigenere -d PYYSRREKRWIQSNEOXCSG anykey                                            
+PLAINTEXTMESSAGETEST
+```
+
 ## Observations
 Only alphabetical characters are allowed.
